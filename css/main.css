@@ -1,0 +1,190 @@
+/* ========= GERENCIAMENTO DE TELA ========= */
+
+section.flag-1 {
+    display: none;
+}
+
+
+/* ========= CARREGAR FONTS ========= */
+
+@font-face {
+    font-family: abel;
+    src: url('../font/Abel-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'mticons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/MaterialIcons-Regular.ttf);
+}
+
+.mticons {
+    font-family: mticons;
+}
+
+.faicons {
+    font-family: faicons;
+}
+
+
+/* ========= DEFINIÇÕES GERAIS ========= */
+
+body {
+    font-family: abel;
+    color: white;
+    background: #375766;
+}
+
+section,
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+
+/* ========= TELA 1 - INÍCIO ========= */
+
+section.inicio {
+    text-align: center;
+    background: url(../img/goal.png) no-repeat center bottom;
+    background-size: 80% auto;
+}
+
+section.inicio h1 {
+    font-size: 5em;
+    margin: 7vh 5vw 0 5vw;
+}
+
+section.inicio button {
+    background: linear-gradient(to bottom, #f2f2f2, #e0dede);
+    border: none;
+    font-size: 2em;
+    color: #787878;
+    box-shadow: 4px 4px 2px -2px rgba(0, 0, 0, 0.5);
+    width: 80vw;
+    margin: 10vw auto;
+    padding: 20px 0;
+    border-radius: 4px;
+}
+
+
+/* ========= TELA 1 - INÍCIO ========= */
+
+section.flag {
+    color: white;
+}
+
+section.flag header {
+    background: #e19c08;
+    font-size: 1.5em;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    height: 8vh;
+    box-sizing: border-box;
+}
+
+section.flag header p span.mticons {
+    font-size: 1em;
+    padding: 3px 2px 0 2px;
+    position: relative;
+    top: 2px;
+}
+
+section.flag div {
+    height: 78vh;
+    padding: 6vh 5vw 0 5vw;
+}
+
+section.flag div h1 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 0 0 1vh 0;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+section.flag ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+section.flag div ul {
+    padding: 3vh 0;
+}
+
+section.flag div ul li {
+    width: 22vw;
+    height: 22vw;
+    margin: 0vh 1vw 4vh 1vw;
+}
+
+section.flag ul li img {
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid #e3d7cb;
+    box-shadow: 4px 4px 2px -2px rgba(0, 0, 0, 0.5);
+}
+
+section.flag footer {
+    width: 100vw;
+    height: 14vh;
+    background: #e19c08;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    bottom: 0;
+    color: white;
+    padding: 8px 0 0 0;
+}
+
+section.flag footer p {
+    display: flex;
+    justify-content: space-around;
+}
+
+section.flag footer span.mticons {
+    position: relative;
+    top: 2px;
+}
+
+.erro {
+    background-color: red;
+    background-blend-mode: multiply;
+}
+
+.gameOver,
+.win {
+    margin: auto;
+    padding: 30% 0 0 0;
+    text-align: center;
+}
+
+.gameOver h1 {
+    color: red;
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.gameOver button,
+.win button {
+    background: linear-gradient(to bottom, #f2f2f2, #e0dede);
+    border: none;
+    font-size: 2em;
+    color: #787878;
+    box-shadow: 4px 4px 2px -2px rgba(0, 0, 0, 0.5);
+    width: 80vw;
+    margin: 10vw auto;
+    padding: 20px 0;
+    border-radius: 4px;
+}
+
+.win h1 {
+    color: rgb(38, 248, 38);
+    font-size: 6rem;
+    font-weight: bold;
+}

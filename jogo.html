@@ -1,0 +1,99 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Quem é o cantor?</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="font/material-icons.css">
+</head>
+
+<body>
+    <section class="inicio">
+        <h1>QUEM É O CANTOR?</h1>
+        <button>COMEÇAR</button>
+    </section>
+    <!-- end .inicio -->
+
+    <section class="flag flag-1">
+        <header>
+            <p>
+                <span class="mticons">star</span> PONTOS: <span class="acertos">0</span>
+
+            </p>
+            <p>
+                <span class="mticons">alarm</span> 00:
+                <span class="tempo">00</span>
+            </p>
+        </header>
+
+
+        <div>
+            <h1>Acerte os 3 cantores</h1>
+            <ul>
+                <li>
+                    <img class="certo matue" src="img/svg-flags/matue.png">
+                </li>
+                <li>
+                    <img class="errado" src="img/svg-flags/dfideliz.png">
+                </li>
+                <li>
+                    <img class="certo sidoka" src="img/svg-flags/sidoka.png">
+                </li>
+                <li>
+                    <img class="errado" src="img/svg-flags/theboy.png">
+                </li>
+                <li>
+                    <img class="certo igu" src="img/svg-flags/igu.png">
+                </li>
+                <li>
+                    <img class="errado" src="img/svg-flags/raffa.png">
+                </li>
+                <li>
+                    <img class="errado" src="img/svg-flags/menort.png">
+                </li>
+                <li>
+                    <img class="errado" class="certo" src="img/svg-flags/dex.png">
+                </li>
+                <li>
+                    <img class="errado" src="img/svg-flags/derek.png">
+                </li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>
+                <span class="mticons" class="home"><a id="home">home</a></span>
+                <span class="mticons" class="som"><a id="mute">volume_up</a></span>
+                <!-- volume_off  -->
+                <span class="mticons" class="ajuda"><a id="help">help_outline</a></span>
+            </p>
+        </footer>
+    </section>
+    <section class="flag gameOver">
+        <h1>Você perdeu!</h1>
+        <button id="tryagain">Tentar novamente</button>
+    </section>
+    <section class="win">
+        <img src="img/trophy.png" width="100vh" height="100vh" alt="">
+        <h1>Você ganhou!</h1>
+        <button id="back">Jogar novamente</button>
+    </section>
+    <!-- end .flg  .flag-1  -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
